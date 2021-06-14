@@ -198,7 +198,7 @@ elseif game.PlaceId == 5163196050 then
 elseif game.PlaceId == 2041312716 then
     -- Ragdoll Engine
     support.Text = "Supported Game: Yes"
-    elseif game.PlaiceId == 47324 then
+    elseif game.PlaceId == 47324 then
     -- SFOTH IV
     support.Text = "Supported Game: Yes"
     elseif game.PlaceId == 142823291 then

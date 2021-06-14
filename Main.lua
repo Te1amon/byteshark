@@ -170,6 +170,12 @@ Main:Destroy()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Timmy%20Wars'))();
   elseif game.PlaceId == 2041312716 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Ragdoll%20Engine.lua'))();
+    elseif game.PlaceId == 47324 then
+    -- SFOTH IV
+    =loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Sword%20Fights%20on%20The%20Heights.lua'))();
+    elseif game.PlaceId == 142823291 then
+    -- MM2
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Murder%20Mystery%202.lua'))();
   else
   end
 end)
@@ -192,6 +198,12 @@ elseif game.PlaceId == 5163196050 then
 elseif game.PlaceId == 2041312716 then
     -- Ragdoll Engine
     support.Text = "Supported Game: Yes"
+    elseif game.PlaiceId == 47324 then
+    -- SFOTH IV
+    support.Text = "Supported Game: Yes"
+    elseif game.PlaceId == 142823291 then
+    -- MM2
+    support.Text = "Supported Game: Yes"
 else
     support.Text = "Supported Game: No"
 end
@@ -199,7 +211,7 @@ end
 if syn then
     exec.Text = "Detected Executor: Synapse X"
 elseif Noobsploit_Loaded then
-    exec.Text = "Detected Executor: Noobsploit :O"
+    exec.Text = "Detected Executor: Noobsploit"
 elseif KRNL_LOADED then
     exec.Text = "Detected Executor: KRNL"
 elseif PROTOSMASHER_LOADED then

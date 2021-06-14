@@ -172,7 +172,7 @@ Main:Destroy()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Ragdoll%20Engine.lua'))();
     elseif game.PlaceId == 47324 then
     -- SFOTH IV
-    =loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Sword%20Fights%20on%20The%20Heights.lua'))();
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Sword%20Fights%20on%20The%20Heights.lua'))();
     elseif game.PlaceId == 142823291 then
     -- MM2
     loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Murder%20Mystery%202.lua'))();

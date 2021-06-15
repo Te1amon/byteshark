@@ -15,7 +15,7 @@ local UICorner_2 = Instance.new("UICorner")
 local gamee = Instance.new("TextLabel")
 local support = Instance.new("TextLabel")
 
-function ReturnString() -- Returns a random string
+function ReturnString() -- Returns a random string a
     local length = math.random(10,20)
     local array = {}
     for i = 1, length do

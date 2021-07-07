@@ -184,7 +184,27 @@ exit.MouseButton1Click:Connect(function()
     Main:Destroy()
 end)
 
-gamee.Text = "Game: "..game.Name
+if game.PlaceId == 286090429 then
+    -- Arsenal
+    gamee.Text = "Game: Arsenal"
+elseif game.PlaceId == 155615604 then
+    -- Prison Life
+   gamee.Text = "Game: Prison Life"
+elseif game.PlaceId == 5163196050 then
+    -- Timmy Wars
+    gamee.Text = "Game: Timmy Wars"
+elseif game.PlaceId == 2041312716 then
+    -- Ragdoll Engine
+    gamee.Text = "Game: Ragdoll Engine"
+    elseif game.PlaceId == 47324 then
+    -- SFOTH IV
+    gamee.Text = "Game: Sword Fights on The Heights IV"
+    elseif game.PlaceId == 142823291 then
+    -- MM2
+   gamee.Text = "Game: Murder Mystery 2"
+else
+    gamee.Text = "Game: nil"
+end
 
 if game.PlaceId == 286090429 then
     -- Arsenal

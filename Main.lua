@@ -159,6 +159,7 @@ support.TextColor3 = Color3.fromRGB(255, 255, 255)
 support.TextSize = 15.000
 
 load.MouseButton1Click:Connect(function()
+_G = getgenv()
 Main:Destroy()
     if game.PlaceId == 286090429 then
   -- Arsenal

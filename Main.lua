@@ -229,6 +229,8 @@ else
     support.Text = "Supported Game: No"
 end
 
+lole = identifyexecutor()
+
 if syn then
     exec.Text = "Detected Executor: Synapse X"
 elseif Noobsploit_Loaded then
@@ -237,6 +239,10 @@ elseif KRNL_LOADED then
     exec.Text = "Detected Executor: KRNL"
 elseif PROTOSMASHER_LOADED then
     exec.Text = "Detected Executor: Protosmasher"
+    elseif lole == "Nocturne" then
+    exec.Text = "Detected Executor: Nocturne"
+    elseif lole == "EasyExploit" then
+    exec.Text = "Detected Executor: EasyExploits Based Executor"
 else
     exec.Text = "Detected Executor: N/A"
 end

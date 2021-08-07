@@ -158,12 +158,18 @@ support.Text = "Supported Game: null"
 support.TextColor3 = Color3.fromRGB(255, 255, 255)
 support.TextSize = 15.000
 
+lole = identifyexecutor()
+
 load.MouseButton1Click:Connect(function()
 _G = getgenv()
 Main:Destroy()
     if game.PlaceId == 286090429 then
   -- Arsenal
+  if lole == "EasyExploit" or Noobsploit_Loaded then
+                -- no
+                else
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/arsenal%20(potato%20pc%20edition)'))();
+                end
   elseif game.PlaceId == 155615604 then
   -- Prison Life
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/prison%20life.lua'))();

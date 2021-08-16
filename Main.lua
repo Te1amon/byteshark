@@ -258,7 +258,7 @@ elseif PROTOSMASHER_LOADED then
     elseif lole == "EasyExploit" then
     exec.Text = "Detected Executor: EasyExploits Based Executor"
       elseif lole == "WeAreDev" or lole == "WeAreDevs" then
-    exec.Text = "Detected Executor: WeAreDevs Based Executor"
+    exec.Text = "Detected Executor: WRD Based Executor"
 else
     exec.Text = "Detected Executor: N/A"
 end

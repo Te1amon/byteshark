@@ -173,6 +173,9 @@ Main:Destroy()
   elseif game.PlaceId == 155615604 then
   -- Prison Life
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/prison%20life.lua'))();
+     elseif game.PlaceId == 7022210933 then
+      -- Revolver Mania
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Revolver%20Mania.lua'))()
   elseif game.PlaceId == 5163196050 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Timmy%20Wars'))();
   elseif game.PlaceId == 2041312716 then
@@ -209,6 +212,9 @@ elseif game.PlaceId == 2041312716 then
     elseif game.PlaceId == 142823291 then
     -- MM2
    gamee.Text = "Game: Murder Mystery 2"
+    elseif game.PlaceId == 7022210933 then
+    -- Revolver Mania
+    gamme.Text = "Game: Revolver Mania"
 else
     gamee.Text = "Game: nil"
 end
@@ -231,6 +237,8 @@ elseif game.PlaceId == 2041312716 then
     elseif game.PlaceId == 142823291 then
     -- MM2
     support.Text = "Supported Game: Yes"
+    elseif game.PlaceId == 7022210933 then
+    support.Text = "Supported Game: Yes"
 else
     support.Text = "Supported Game: No"
 end
@@ -249,6 +257,8 @@ elseif PROTOSMASHER_LOADED then
     exec.Text = "Detected Executor: Nocturne"
     elseif lole == "EasyExploit" then
     exec.Text = "Detected Executor: EasyExploits Based Executor"
+      elseif lole == "WeAreDev" or lole == "WeAreDevs" then
+    exec.Text = "Detected Executor: WeAreDevs Based Executor"
 else
     exec.Text = "Detected Executor: N/A"
 end

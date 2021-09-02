@@ -165,11 +165,7 @@ _G = getgenv()
 Main:Destroy()
     if game.PlaceId == 286090429 then
   -- Arsenal
-  if lole == "EasyExploit" or Noobsploit_Loaded then
-                -- no
-                else
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/arsenal%20(potato%20pc%20edition)'))();
-                end
   elseif game.PlaceId == 155615604 then
   -- Prison Life
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/prison%20life.lua'))();

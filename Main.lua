@@ -173,9 +173,6 @@ Main:Destroy()
   elseif game.PlaceId == 155615604 then
   -- Prison Life
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/prison%20life.lua'))();
-     elseif game.PlaceId == 7022210933 then
-      -- Revolver Mania
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Revolver%20Mania.lua'))()
   elseif game.PlaceId == 5163196050 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Timmy%20Wars'))();
   elseif game.PlaceId == 2041312716 then
@@ -188,6 +185,12 @@ Main:Destroy()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Murder%20Mystery%202.lua'))();
   else
   end
+       if game.PlaceId == 7022210933 then
+      -- Revolver Mania
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/nuldylan/byteshark/main/Revolver%20Mania.lua'))()
+  else
+            end
+      
 end)
 
 exit.MouseButton1Click:Connect(function()
@@ -212,11 +215,15 @@ elseif game.PlaceId == 2041312716 then
     elseif game.PlaceId == 142823291 then
     -- MM2
    gamee.Text = "Game: Murder Mystery 2"
-    elseif game.PlaceId == 7022210933 then
+else
+    gamee.Text = "Game: nil"
+end
+
+    if game.PlaceId == 7022210933 then
     -- Revolver Mania
     gamme.Text = "Game: Revolver Mania"
 else
-    gamee.Text = "Game: nil"
+ -- h
 end
 
 if game.PlaceId == 286090429 then
